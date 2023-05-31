@@ -11,7 +11,7 @@ const ChatUI = () => {
     useEffect(() => {
       async function logJSONData() {
         const response = await fetch(
-          "http://3.111.128.67/assignment/chat?page=0"
+          "https://3.111.128.67/assignment/chat?page=0"
         );
         const jsonData = await response.json();
         setMessage(jsonData.chats);
