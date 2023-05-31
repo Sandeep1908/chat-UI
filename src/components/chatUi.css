@@ -1,0 +1,56 @@
+.chat-ui-body{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    background-color: #f5faf9;
+    position: relative;
+}
+
+@media(min-width:400px){
+    .chat-ui-body{
+        width: 84%;
+    }
+}
+
+@media (min-width: 500px){
+.chat-ui-body {
+    width: 67%;
+}
+}
+
+@media (min-width: 600px){
+.chat-ui-body {
+    width: 60%;
+}
+}
+
+@media (min-width: 750px){
+.chat-ui-body {
+    width: 50%;
+}
+}
+
+@media (min-width: 850px){
+.chat-ui-body {
+    width: 44%;
+}
+}
+
+
+@media (min-width: 1000px){
+.chat-ui-body {
+    width: 37%;
+}
+}
+
+@media (min-width: 1200px){
+.chat-ui-body {
+    width: 32%;
+}
+}
+
+@media (min-width: 1600px){
+.chat-ui-body {
+    width: 26%;
+}
+}
